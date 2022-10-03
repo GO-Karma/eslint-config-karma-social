@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["react-native"],
   extends: ["airbnb", "airbnb/hooks", "plugin:import/recommended", "prettier"],
   rules: {
     // turn off prefer default export error
@@ -72,5 +73,23 @@ module.exports = {
 
     // put newline
     "newline-after-var": ["error", "always"],
+
+    // detect unused styles
+    "react-native/no-unused-styles": "error",
+
+    // split platfrom components
+    "react-native/split-platform-components": "error",
+
+    // detect inline styles
+    "react-native/no-inline-styles": "error",
+
+    // use colors as variable
+    "react-native/no-color-literals": "error",
+
+    // detect raw text
+    "react-native/no-raw-text": "error",
+
+    // detect unnecessary array style
+    "react-native/no-single-element-style-arrays": "error",
   },
 };
