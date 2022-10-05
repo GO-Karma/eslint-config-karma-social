@@ -13,7 +13,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-native": "^4.0.0"
+    "eslint-plugin-react-native": "ssh://git@github.com:GO-Karma/eslint-plugin-react-native.git"
   },
   "peerDependencies": {
     "eslint": "^8.2.0",

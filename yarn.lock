@@ -403,9 +403,9 @@ confusing-browser-globals@^1.0.10:
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
 core-js-pure@^3.25.1:
-  version "3.25.4"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.25.4.tgz#e8642cef4f4246a4e7c15280f5e3926118fff84b"
-  integrity sha512-qRbgm0ADrsNTU66UcW47YMJjXm+ShhUP2gkoEoAShT2BHO3cb5gGqLtmWpjnM6Wx9h5hMSF4uZ+jEV/8+4KCsw==
+  version "3.25.5"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.25.5.tgz#79716ba54240c6aa9ceba6eee08cf79471ba184d"
+  integrity sha512-oml3M22pHM+igfWHDfdLVq2ShWmjM2V4L+dQEBs0DWVIqEm9WHCwGAlZ6BmyBQGy5sFrJmcx+856D9lVKyGWYg==
 
 cross-spawn@^7.0.2:
   version "7.0.3"
@@ -624,10 +624,9 @@ eslint-plugin-react-native-globals@^0.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-native-globals/-/eslint-plugin-react-native-globals-0.1.2.tgz#ee1348bc2ceb912303ce6bdbd22e2f045ea86ea2"
   integrity sha512-9aEPf1JEpiTjcFAmmyw8eiIXmcNZOqaZyHO77wgm0/dWfT/oxC1SrIq8ET38pMxHYrcB6Uew+TzUVsBeczF88g==
 
-eslint-plugin-react-native@^4.0.0:
+"eslint-plugin-react-native@ssh://git@github.com:GO-Karma/eslint-plugin-react-native.git":
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-native/-/eslint-plugin-react-native-4.0.0.tgz#eec41984abe4970bdd7c6082dff7a98a5e34d0bb"
-  integrity sha512-kMmdxrSY7A1WgdqaGC+rY/28rh7kBGNBRsk48ovqkQmdg5j4K+DaFmegENDzMrdLkoufKGRNkKX6bgSwQTCAxQ==
+  resolved "ssh://git@github.com:GO-Karma/eslint-plugin-react-native.git#21fa7073f91cf070e37d5f95e052cf23e3558133"
   dependencies:
     "@babel/traverse" "^7.7.4"
     eslint-plugin-react-native-globals "^0.1.1"
