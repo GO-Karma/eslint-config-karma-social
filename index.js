@@ -1,4 +1,7 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: "latest",
+  },
   plugins: ["react-native"],
   extends: ["airbnb", "airbnb/hooks", "plugin:import/recommended", "prettier"],
   rules: {
